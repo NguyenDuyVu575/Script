@@ -1,0 +1,75 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Nothing Hub-Dead Rails",
+         Animation = "Made by Nothing"
+         },
+        Key = {
+        KeySystem = true,
+        Title = "Key System",
+        Description = "Key Is 1234",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect. Ty fos using my script!",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "https://www.roblox.com/asset/?id=127665361436174",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Tp"})
+     local Tab2o = MakeTab({Name = "Script Dead Rails"})
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Tp to train",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/tptotesla.github.io/refs/heads/main/Tptotesla.lua'))()    
+	  
+    AddButton(Tab1o, {
+     Name = "Tp to Tesla Lab",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/tptotesla.github.io/refs/heads/main/Tptotesla.lua'))()
+	      
+    AddButton(Tab1o, {
+     Name = "Tp to Fort Constitution",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/Tpfort.github.io/refs/heads/main/Tpfort.lua"))()
+	      
+    AddButton(Tab1o, {
+     Name = "Tp to Castle",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
+	      
+    AddButton(Tab1o, {
+     Name = "Tp to Sterling Town",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/daisholovesme.github.io/refs/heads/main/daishokissme.lua"))()
+	          
+    AddButton(Tab2o, {
+     Name = "Script tp to end+aimbot",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/FixedPlease/refs/heads/main/Protected_7197551640341824.txt"))()
+	      
+    AddButton(Tab2o, {
+     Name = "Null Fire",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
+	     
+    AddButton(Tab2o, {
+     Name = "Articles Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://github.com/Articles-Hub/ROBLOXScript/commit/aef0a73ec5f2e63d30137e2eb8b11283fb3d6159"))()
