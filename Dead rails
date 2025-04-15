@@ -34,7 +34,6 @@ local Tab1o = MakeTab({Name = "Character"})
 local Tab2o = MakeTab({Name = "Teleport"})
 local Tab3o = MakeTab({Name = "Script Dead Rails"})
 local Tab4o = MakeTab({Name = "Troll"})
-local Tab5o = MakeTab({Name = "Vip"})
 
 -- Buttons
 
@@ -226,7 +225,7 @@ end)
     end
 })
 AddButton(Tab2o, {
-    Name = "Tp to Tesla Lab-Need chair",
+    Name = "Tp to Tesla Lab",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/tptotesla.github.io/refs/heads/main/Tptotesla.lua'))()
     end
@@ -247,7 +246,7 @@ AddButton(Tab2o, {
 })
 
 AddButton(Tab2o, {
-    Name = "Tp to Sterling Towh-Need chair",
+    Name = "Tp to Sterling Town",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/daisholovesme.github.io/refs/heads/main/daishokissme.lua"))()
     end
