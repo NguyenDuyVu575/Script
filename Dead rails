@@ -13,9 +13,9 @@ local Window = MakeWindow({
         Keys = {"1234"},
         Notifi = {
             Notifications = true,
-            CorrectKey = "Running the Script...",
-            Incorrectkey = "The key is incorrect. Ty fos using my script!",
-            CopyKeyLink = "Copied to Clipboard"
+            CorrectKey = "Correct Key! Ty for using my script!!",
+            Incorrectkey = "Key is 1234",
+            CopyKeyLink = "Key is 1234"
         }
     }
 })
@@ -30,60 +30,67 @@ MinimizeButton({
 })
 
 -- Tabs
-local Tab1o = MakeTab({Name = "Tp"})
-local Tab2o = MakeTab({Name = "Script Dead Rails"})
+local Tab1o = MakeTab({Name = "Character"})
+local Tab2o = MakeTab({Name = "Teleport"})
+local Tab3o = MakeTab({Name = "Script Dead Rails"})
 
 -- Buttons
+
 AddButton(Tab1o, {
+    Name = "Unlockcam",
+    Callback = funtion( )
+     
+   end
+AddButton(Tab2o, {
     Name = "Tp to train",
+    Callback = funtion( )
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/train.github.io/refs/heads/main/train.lua'))()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "Tp to Tesla Lab-Need chair",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/tptotesla.github.io/refs/heads/main/Tptotesla.lua'))()
     end
 })
 
-AddButton(Tab1o, {
-    Name = "Tp to Tesla Lab",
-    Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/tptotesla.github.io/refs/heads/main/Tptotesla.lua'))()
-    end
-})
-
-AddButton(Tab1o, {
+AddButton(Tab2o, {
     Name = "Tp to Fort Constitution",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/Tpfort.github.io/refs/heads/main/Tpfort.lua"))()
     end
 })
 
-AddButton(Tab1o, {
+AddButton(Tab2o, {
     Name = "Tp to Castle",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end
 })
 
-AddButton(Tab1o, {
-    Name = "Tp to Sterling Town",
+AddButton(Tab2o, {
+    Name = "Tp to Sterling Towh-Need chair",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/daisholovesme.github.io/refs/heads/main/daishokissme.lua"))()
     end
 })
 
-AddButton(Tab2o, {
+AddButton(Tab3o, {
     Name = "Script tp to end+aimbot",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/FixedPlease/refs/heads/main/Protected_7197551640341824.txt"))()
     end
 })
 
-AddButton(Tab2o, {
+AddButton(Tab3o, {
     Name = "Null Fire",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
     end
 })
 
-AddButton(Tab2o, {
+AddButton(Tab3o, {
     Name = "Articles Hub",
     Callback = function()
         loadstring(game:HttpGet("https://github.com/Articles-Hub/ROBLOXScript/commit/aef0a73ec5f2e63d30137e2eb8b11283fb3d6159"))()
