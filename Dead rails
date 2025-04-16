@@ -3,7 +3,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2
 local Window = MakeWindow({
     Hub = {
         Title = "Nothing Hub-Dead Rails",
-        Animation = "Made by Nothing"
+        Animation = "Made by NothingScript"
     },
     Key = {
         KeySystem = true,
@@ -219,7 +219,7 @@ end)
     end
  })
   AddButton(Tab2o, {
-    Name = "Tp to train",
+    Name = "Tp to Train",
     Callback = function()
       loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/train.github.io/refs/heads/main/train.lua'))()
     end
@@ -254,7 +254,7 @@ AddButton(Tab2o, {
 AddButton(Tab2o, {
     Name = "Tp to Sterling Town",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/daisholovesme.github.io/refs/heads/main/daishokissme.lua"))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/sterlingnotifcation.github.io/refs/heads/main/Sterling.lua'))()
     end
 })
 
@@ -273,9 +273,9 @@ AddButton(Tab3o, {
 })
 
 AddButton(Tab3o, {
-    Name = "Articles Hub",
+    Name = "Articles Hub-Very OP",
     Callback = function()
-        loadstring(game:HttpGet("https://github.com/Articles-Hub/ROBLOXScript/commit/aef0a73ec5f2e63d30137e2eb8b11283fb3d6159"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Articles-Hub/ROBLOXScript/aef0a73ec5f2e63d30137e2eb8b11283fb3d6159/File-Script/Dead%20rails.lua"))()
     end
 })
 
