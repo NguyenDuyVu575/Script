@@ -6,7 +6,7 @@ local Window = MakeWindow({
         Animation = "Made by NothingScript"
     },
     Key = {
-        KeySystem = true,
+        KeySystem = false,
         Title = "Key System",
         Description = "Key Is 1234",
         KeyLink = "",
@@ -231,7 +231,7 @@ AddButton(Tab2o, {
     end
 })
  AddButton(Tab2o, {
-    Name = "Tp to Tesla Lab 2 if 1 not work",
+    Name = "Tp to Tesla Lab 2-Best tp to Tesla",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/tplab.txt"))()
     end
@@ -252,9 +252,15 @@ AddButton(Tab2o, {
 })
 
 AddButton(Tab2o, {
-    Name = "Tp to Sterling Town",
+    Name = "Tp to Sterling Town-Drag chair if not working",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/ringtaa/sterlingnotifcation.github.io/refs/heads/main/Sterling.lua'))()
+    end
+})
+AddButton(Tab2o, {
+    Name = "Tp to 80km for pacifist quest",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/newpacifisct/refs/heads/main/newpacifisct.lua"))()
     end
 })
 
@@ -266,14 +272,14 @@ AddButton(Tab3o, {
 })
 
 AddButton(Tab3o, {
-    Name = "Null Fire",
+    Name = "Null Fire-OP",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
     end
 })
 
 AddButton(Tab3o, {
-    Name = "Articles Hub-Very OP",
+    Name = "Articles Hub",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Articles-Hub/ROBLOXScript/aef0a73ec5f2e63d30137e2eb8b11283fb3d6159/File-Script/Dead%20rails.lua"))()
     end
