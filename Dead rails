@@ -269,20 +269,18 @@ AddButton(Tab2o, {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/newpacifisct/refs/heads/main/newpacifisct.lua"))()
     end
 })
-
+AddButton(Tab2o, {
+    Name = "Tp to unicorn-not working? or not.. Idk",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenDuyVu575/Tptounicorn/refs/heads/main/Find"))()
+    end
+})
 AddButton(Tab3o, {
     Name = "Script tp to end gui",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/FixedPlease/refs/heads/main/Protected_7197551640341824.txt"))()
     end
 })
-AddButton(Tab2o, {
-    Name = "Tp to unicorn-Have more bug-I will fix soon",
-    Callback = function()
-        https://raw.githubusercontent.com/NguyenDuyVu575/Tptounicorn/refs/heads/main/Find
-    end
-})
-
 
 AddButton(Tab3o, {
     Name = "Null Fire-OP",
