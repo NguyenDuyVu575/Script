@@ -318,6 +318,6 @@ AddButton(Tab4o, {
 AddButton(Tab4o, {
     Name = "Weld anything gui",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWAIRWELD.github.io/refs/heads/main/weld.lua"))()
     end
  })
