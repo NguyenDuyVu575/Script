@@ -51,6 +51,12 @@ AddButton(Tab1o, {
 game:GetService("Players").LocalPlayer.CameraMode = Enum.CameraMode.Classic
    end
  })
+AddButton(Tab1o, {
+    Name = "Aimbot Gui",
+    Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenDuyVu575/Abc/refs/heads/main/Aimbot-Deadrails"))()
+   end
+ })
 
 AddButton(Tab1o, {
     Name = "Aimlock NPC Gui",
@@ -307,5 +313,11 @@ AddButton(Tab4o, {
     Name = "Drag Anything Gui! Drag you friend for troll",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/dolboeb432/dolboeb432/refs/heads/main/README.md'))()
+    end
+ })
+AddButton(Tab4o, {
+    Name = "Weld anything gui",
+    Callback = function()
+        
     end
  })
